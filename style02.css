@@ -83,3 +83,14 @@ body {
       margin-top: 75px;
       font-family: Margot;
       }
+
+      .animacio{
+        cursor: pointer;
+        transition: 0.5s ease;
+      }
+
+      .animacio:hover{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+      }
